@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   <style parent="@style/Widget.AppCompat.ActionBar" name="appbarStyle">
+      <item name="android:background">@color/HEX_FFFFFFFF</item>
+      <item name="android:actionOverflowButtonStyle">@style/appbarOverflowButton</item>
+      <item name="actionOverflowButtonStyle">@style/appbarOverflowButton</item>
+      <item name="android:textColorPrimary">@color/HEX_000000FF</item>
+   </style>
+   <style parent="@style/Widget.AppCompat.ActionButton.Overflow" name="appbarOverflowButton">
+      <item name="android:layout_width">24dp</item>
+      <item name="android:layout_height">24dp</item>
+      <item name="android:adjustViewBounds">true</item>
+      <item name="android:scaleType">fitCenter</item>
+   </style>
+</resources>

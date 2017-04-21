@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"  android:background="#FFFFFFFF" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/webview">
+   <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" android:background="#FFFFFFFF" app:titleTextColor="#FF000000" app:title="fuzer" android:textSize="20sp" android:fontFamily="sans-serif-medium" android:textStyle="normal" android:theme="@style/appbarStyle" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/appbar"/>
+   <ScrollView android:fillViewport="true" android:layout_height="match_parent" android:layout_width="match_parent">
+      <android.support.percent.PercentRelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+         <android.webkit.WebView android:outlineProvider="bounds" android:focusableInTouchMode="true" android:focusable="true" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/webview1"/>
+      </android.support.percent.PercentRelativeLayout>
+   </ScrollView>
+</LinearLayout>
